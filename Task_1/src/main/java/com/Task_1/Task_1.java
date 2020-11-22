@@ -99,9 +99,9 @@ class Developer extends Employee
      
     public Developer(String cFirstName, String cLastName, int cId)
     {
-        this.firstName = cFirstName;
-        this.lastName = cLastName;
-        this.id = cId;
+        firstName = cFirstName;
+        lastName = cLastName;
+        id = cId;
         hoursInWeekday = 8.0;
         
     }
@@ -118,9 +118,9 @@ class Manager extends Employee
     
     public Manager(String cFirstName, String cLastName, int cId)
     {
-        this.firstName = cFirstName;
-        this.lastName = cLastName;
-        this.id = cId;
+        firstName = cFirstName;
+        lastName = cLastName;
+        id = cId;
         hoursInWeekday = 8.0;
     }
 
