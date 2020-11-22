@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 
 
-public class ClassesTask{
+public class Task_1{
 
     public static void main(String[] str){
 
@@ -99,9 +99,9 @@ class Developer extends Employee
      
     public Developer(String cFirstName, String cLastName, int cId)
     {
-        String firstName = cFirstName;
-        String lastName = cLastName;
-        int id = cId;
+        this.firstName = cFirstName;
+        this.lastName = cLastName;
+        this.id = cId;
         hoursInWeekday = 8.0;
         
     }
@@ -118,9 +118,9 @@ class Manager extends Employee
     
     public Manager(String cFirstName, String cLastName, int cId)
     {
-        firstName = cFirstName;
-        lastName = cLastName;
-        id = cId;
+        this.firstName = cFirstName;
+        this.lastName = cLastName;
+        this.id = cId;
         hoursInWeekday = 8.0;
     }
 
